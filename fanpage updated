@@ -1,0 +1,122 @@
+
+<!-- MUHAMMAD ABDULLAH SHAHID -->
+<!-- 26I-3211 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Naruto: Shadow Rising</title>
+
+    <link rel="stylesheet" href="a.css">
+</head>
+
+<body>
+
+    <header>
+        <p class="student">MUHAMMAD ABDULLAH SHAHID | 26I-3211</p>
+
+        <h1>NARUTO: SHADOW RISING</h1>
+
+        <p class="subtitle">THE WILL OF FIRE NEVER DIES</p>
+    </header>
+
+    <main>
+
+        <table class="main-table" width="100%" cellpadding="15">
+
+            <tr>
+                <td width="60%" valign="top">
+
+                    <h2>THE LEGEND RETURNS</h2>
+
+                    <img
+                        src="./naruto_shadow_rising.jpg"
+                        width="80%"
+                        alt="Naruto Shadow Rising">
+
+                    <p class="description">
+                        Enter the world of shinobi, where courage,
+                        friendship and determination decide the fate
+                        of the ninja world.
+                    </p>
+
+                </td>
+
+                <td valign="top">
+
+                    <h2>CHARACTER VOICE CAST</h2>
+
+                    <table class="cast-table" width="100%">
+
+                        <tr>
+                            <th>CHARACTER</th>
+                            <th>VOICE ACTOR</th>
+                        </tr>
+
+                        <tr>
+                            <td>Naruto Uzumaki</td>
+                            <td>Junko Takeuchi</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sasuke Uchiha</td>
+                            <td>Yuri Lowenthal</td>
+                        </tr>
+
+                        <tr>
+                            <td>Kakashi Hatake</td>
+                            <td>Dave Wittenberg</td>
+                        </tr>
+
+                    </table>
+
+                </td>
+            </tr>
+
+            <tr>
+
+                <td valign="top">
+
+                    <h2>THE WILL OF FIRE</h2>
+
+                    <p class="description">
+                        Celebrating 27 years of never giving up!
+                        Believe it!
+                    </p>
+
+                </td>
+
+                <td valign="top">
+
+                    <h2>SHINOBI MERCHANDISE</h2>
+
+                    <button onclick="clicktobuyhoodies()">
+                        BUY HOODIES
+                    </button>
+
+                    <br><br>
+
+                    <button onclick="clicktobuyfigures()">
+                        BUY ACTION FIGURES
+                    </button>
+
+                </td>
+
+            </tr>
+
+        </table>
+
+    </main>
+
+    <footer>
+        <p>DATTEBAYO! | NARUTO FANPAGE | 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

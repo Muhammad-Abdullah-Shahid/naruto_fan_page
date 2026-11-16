@@ -1,0 +1,196 @@
+/* MUHAMMAD ABDULLAH SHAHID */
+/* 26I-3211 */
+
+/* GENERAL PAGE */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+
+    background-color: #101010;
+    background-image:
+        radial-gradient(circle at top, #44200c 0%, #101010 65%);
+
+    color: white;
+
+    font-family: "Arial Black", Impact, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding: 25px;
+
+    background: linear-gradient(
+        90deg,
+        #160b05,
+        #8b270d,
+        #160b05
+    );
+
+    border-bottom: 4px solid #ff8c00;
+}
+
+.student {
+    color: #d5c2a1;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+h1 {
+    color: #ff9d00;
+
+    font-size: 42px;
+    letter-spacing: 4px;
+
+    text-shadow:
+        3px 3px 0px #8b0000,
+        0px 0px 15px #ff4500;
+}
+
+.subtitle {
+    color: white;
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+/* MAIN CONTENT */
+
+main {
+    margin: 30px auto;
+    max-width: 1200px;
+}
+
+.main-table {
+    border-collapse: collapse;
+
+    background-color: rgba(25, 25, 25, 0.95);
+
+    border: 2px solid #a84a12;
+}
+
+.main-table td {
+    border: 1px solid #71330f;
+    padding: 25px;
+}
+
+/* HEADINGS */
+
+h2 {
+    color: #ff9900;
+
+    font-size: 21px;
+    letter-spacing: 2px;
+
+    border-bottom: 2px solid #a52a0a;
+    padding-bottom: 10px;
+}
+
+/* IMAGE */
+
+img {
+    border: 3px solid #ff8c00;
+
+    box-shadow: 0px 0px 20px #8b270d;
+
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+    box-shadow: 0px 0px 30px #ff4500;
+}
+
+/* DESCRIPTION */
+
+.description {
+    color: #d6d6d6;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+/* CHARACTER TABLE */
+
+.cast-table {
+    border-collapse: collapse;
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+.cast-table th {
+    background-color: #8b2500;
+    color: #ffcc66;
+
+    padding: 12px;
+}
+
+.cast-table td {
+    padding: 12px;
+    border: 1px solid #754018;
+}
+
+.cast-table tr:nth-child(even) {
+    background-color: #29201b;
+}
+
+.cast-table tr:hover {
+    background-color: #55200c;
+}
+
+/* BUTTONS */
+
+button {
+    background: linear-gradient(
+        90deg,
+        #8b2500,
+        #ff8c00
+    );
+
+    color: white;
+
+    border: 2px solid #ffb347;
+
+    padding: 12px 25px;
+
+    font-family: "Arial Black", Impact, sans-serif;
+
+    letter-spacing: 1px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ffcc00;
+
+    color: black;
+
+    box-shadow: 0px 0px 20px #ff8c00;
+
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+
+    padding: 15px;
+
+    background-color: #1c100a;
+
+    border-top: 3px solid #ff8c00;
+
+    color: #ff9d00;
+
+    letter-spacing: 3px;
+}
